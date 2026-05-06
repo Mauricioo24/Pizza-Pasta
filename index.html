@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Santo Antônio - Pizza &amp; Pasta</title>
+  <link rel="icon" type="image/png" href="assets/Logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="topline">
+    <text>Domingo à Terça | Quinta à Sábado</text>
+    <text>Av. Min. Nelson Hungria, 459 - Centro, Santo Antônio do Pinhal</text>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#">
+        <img src="assets/logo.jpg" width="96" height="96" alt="Logo Santo Antônio">
+        <div>
+          <div class="brand__title">Santo Antônio</div>
+          <div class="brand__tag">Pizza &amp; Pasta</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#horarios">Horários</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--green hero hero--split" aria-labelledby="hero-title">
+      <div class="hero-split">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow--gold">Cada detalhe começa na nossa cozinha</p>
+          <h1 id="hero-title">Sua melhor experiência em <span class="accent">Pizza & Pasta</span>, sabores artesanais e clima de montanha.</h1>
+          <p class="lead">Pizzas artesanais, feitas com massa de fermentação natural e farinha italiana, leves, crocantes na medida certa e cheias de sabor!</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="https://wa.me/5512997051560" rel="noopener noreferrer">WhatsApp</a>
+            <a class="btn btn--ghost" href="assets/menu.pdf" target="_blank" rel="noopener noreferrer">Ver cardápio (PDF)</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+        <div class="carousel js-carousel" id="hero-carousel" data-interval="5200" role="region" aria-roledescription="carousel" aria-label="Fotos de pizzas">
+          <div class="carousel__slides">
+            <div class="carousel__slide is-active" aria-hidden="false">
+              <img src="assets/pizza1.jpeg" alt="Pizza em destaque na Santo Antônio" width="960" height="720" loading="eager" decoding="async">
+            </div>
+            <div class="carousel__slide" aria-hidden="true">
+              <img src="assets/pizza2.jpeg" alt="Outra pizza da casa" width="960" height="720" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel__slide" aria-hidden="true">
+              <img src="assets/pizza3.jpeg" alt="Pizza saindo do forno" width="960" height="720" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel__slide" aria-hidden="true">
+              <img src="assets/pizza5.jpeg" alt="Mais uma especialidade" width="960" height="720" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <div class="carousel__controls">
+            <button type="button" class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+            <div class="carousel__dots" role="tablist" aria-label="Selecionar foto">
+              <button type="button" class="carousel__dot is-active" aria-label="Foto 1 de 4" aria-current="true"></button>
+              <button type="button" class="carousel__dot" aria-label="Foto 2 de 4" aria-current="false"></button>
+              <button type="button" class="carousel__dot" aria-label="Foto 3 de 4" aria-current="false"></button>
+              <button type="button" class="carousel__dot" aria-label="Foto 4 de 4" aria-current="false"></button>
+            </div>
+            <button type="button" class="carousel__btn carousel__btn--next" aria-label="Próxima foto">›</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about-split" id="sobre" aria-labelledby="sobre-title">
+      <div class="about-split">
+        <div class="about-visual">
+          <div class="carousel js-carousel" id="about-carousel" data-interval="5200" role="region" aria-roledescription="carousel" aria-label="Fotos da unidade e da casa">
+            <div class="carousel__slides">
+              <div class="carousel__slide" aria-hidden="true">
+                <img src="assets/unidade2.png" alt="Ambiente e pizzas na Santo Antônio" width="960" height="720" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel__slide" aria-hidden="true">
+                <img src="assets/unidade3.png" alt="Trabalho no forno a lenha" width="960" height="720" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <div class="carousel__controls">
+              <button type="button" class="carousel__btn carousel__btn--prev" aria-label="Foto anterior">‹</button>
+              <div class="carousel__dots" role="tablist" aria-label="Selecionar foto">
+                <button type="button" class="carousel__dot" aria-label="Foto 1 de 2" aria-current="false"></button>
+                <button type="button" class="carousel__dot" aria-label="Foto 2 de 2" aria-current="false"></button>
+              </div>
+              <button type="button" class="carousel__btn carousel__btn--next" aria-label="Próxima foto">›</button>
+            </div>
+          </div>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">Sobre</p>
+          <h2 id="sobre-title"> E esse é só o começo de <span class="accent">uma grande história</span>.</h2>
+          <p class="lead about-copy__lead">Vivemos momentos incríveis aqui no Santo Antonio Pizza e Pasta. Logo nos primeiros meses, ampliamos nossa casa para receber tantas pessoas especiais que prestigiaram o nosso espaço.
+            Participamos de festivais, recebemos grandes nomes brasileiros e internacionais, além de familiares, amigos e muitos elogios que nos enchem de gratidão.
+            Por isso queremos celebrar com você, porque é por você que estamos aqui!Com gastronomia de qualidade, ingredientes frescos e uma equipe pronta para te receber, seguimos firmes para que você viva a melhor experiência de Santo Antônio do Pinhal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="cardapio" aria-labelledby="cardapio-title">
+      <div class="wrap">
+        <p class="eyebrow">Cardápio</p>
+        <h2 id="cardapio-title">Tudo no nosso menu</h2>
+        <p class="lead cardapio-lead">Pizzas e massas que levam até você o verdadeiro sabor da tradição italiana, bebidas e mais. Para acessar o cardápio clique no botão abaixo</p>
+        <div class="actions cardapio-actions">
+          <a class="btn btn--primary btn--lg" href="assets/menu.pdf" target="_blank" rel="noopener noreferrer">Abrir cardápio completo (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="horarios" aria-labelledby="horarios-title">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--gold">Horários</p>
+        <h2 id="horarios-title">Forno de <span class="accent">Domingo à Terça | Quinta à Sábado</span></h2>
+        <p class="lead" style="max-width: 62ch;">Às quartas estamos fechados, mas nos outros dias você pode deixar-se encantar pelas nossas massas frescas feitas com farinha italiana e pizzas artesanais de sabor incomparável.</p>
+        <a class="btn btn--primary" href="https://wa.me/5512997051560">Consulte disponibilidade e Horários</a>
+
+        <div class="hours" role="list">
+          <div class="hours-row" role="listitem"><span>Segunda</span><span>18h — 22h</span></div>
+          <div class="hours-row" role="listitem"><span>Terça</span><span>18h — 22h</span></div>
+          <div class="hours-row is-closed" role="listitem"><span>Quarta</span><span>Fechado</span></div>
+          <div class="hours-row" role="listitem"><span>Quinta</span><span>18h — 22h</span></div>
+          <div class="hours-row is-highlight" role="listitem"><span>Sexta</span><span>12h — 15h | 18h — 23h</span></div>
+          <div class="hours-row is-highlight" role="listitem"><span>Sábado</span><span>12h — 15h | 18h — 23h</span></div>
+          <div class="hours-row" role="listitem"><span>Domingo</span><span>12h — 15h | 18h — 22h</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="avaliacoes" aria-labelledby="avaliacoes-title">
+      <div class="wrap">
+        <div class="reviews-head">
+          <p class="eyebrow">Avaliações</p>
+          <h2 id="avaliacoes-title">4,9 no Google · <span class="accent">+300 avaliações</span></h2>
+          <p class="stars" aria-hidden="true">★★★★★</p>
+          <p class="lead" style="margin-top: 1rem; max-width: none; font-style: italic; font-size: 1.125rem;">
+            Faça como mais de 300 pessoas e nos deixe saber
+            <a style="color: var(--brand-red);" href="https://www.google.com/maps/place/Santo+Ant%C3%B4nio+-+Pizza+%26+Pasta/@-22.8255931,-45.6655509,17z/data=!3m1!4b1!4m6!3m5!1s0x94cc614a33c0896f:0x722d5a6ee462bcc9!8m2!3d-22.8255931!4d-45.6655509!16s%2Fg%2F11wqb8rq40?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">como foi sua experiência com a gente!</a>
+          </p>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card">
+            <p class="stars" aria-label="5 estrelas">★★★★★</p>
+            <p class="review-text">“Ótima pizzaria!!!! Atendimento de todos foi impecável!!! O Marcos nos atendeu muito bem no início e o time todo nos ajudava em todos os momentos!!!
+              A pizza estava divina, coma. Massa bem fininha e deliciosa e o recheio perfeito!!!! Vale muito a pena experimentar e se deliciar com as pizzas e sobremesas!!!”</p>
+            <div class="review-meta">Dauani Nojima<span>via Google</span></div>
+          </article>
+          <article class="review-card">
+            <p class="stars" aria-label="5 estrelas">★★★★★</p>
+            <p class="review-text">“Uma pizza que conquista em todos os aspectos.
+              Massa crocante e macia,  molho saboroso.
+              Simplesmente maravilhosa a pizza!”</p>
+            <div class="review-meta">Kelly Lopes<span>via Google</span></div>
+          </article>
+          <article class="review-card">
+            <p class="stars" aria-label="5 estrelas">★★★★★</p>
+            <p class="review-text">“Lugar fantástico! Os funcionários super simpáticos, o ambiente é lindo e aconchegante e a comida é maravilhosa! Comemos uma pizza dos sabores stupenda e sofia, 
+              feitas com ingredientes maravilhosos e com uma combinação incrível… e por sorte, ainda ganhamos um rotolini de dia das mulheres.”</p>
+            <div class="review-meta">Mariana Barboni<span>via Google</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--green" id="contato" aria-labelledby="contato-title">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow eyebrow--gold">Contato</p>
+          <h2 id="contato-title">Fale <span class="accent">com a gente</span></h2>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span class="contact-item__label">Endereço</span>
+              <span class="contact-item__value">Av. Min. Nelson Hungria, 459 — Centro, Santo Antônio do Pinhal</span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-item__label">WhatsApp</span>
+              <span class="contact-item__value"><a href="https://wa.me/5512997051560">(12) 99705-1560</a></span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-item__label">Instagram</span>
+              <span class="contact-item__value"><a href="https://instagram.com/santoantoniopizzaepasta" rel="noopener noreferrer">@santoantoniopizzaepasta</a></span>
+            </li>
+          </ul>
+          <div class="actions" style="margin-top: 1rem;">
+            <a class="btn btn--primary" href="https://wa.me/5512997051560">WhatsApp</a>
+            <a class="btn btn--ghost" href="https://maps.google.com/?q=Av.+Min.+Nelson+Hungria,+459+-+Centro,+Santo+Antônio+do+Pinhal" rel="noopener noreferrer">Como chegar</a>
+          </div>
+        </div>
+        <div class="map-placeholder" role="note">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.3754987289153!2d-45.6655509!3d-22.8255931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc614a33c0896f%3A0x722d5a6ee462bcc9!2sSanto%20Ant%C3%B4nio%20-%20Pizza%20%26%20Pasta!5e0!3m2!1spt-BR!2sbr!4v1778102079335!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section--dark">
+    <div class="wrap">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" width="80" height="80" alt="">
+        <div>
+          <strong class="footer-name">Santo Antônio</strong><br>
+          <span class="footer-sub">Pizza &amp; Pasta</span>
+        </div>
+      </div>
+      <p class="footer-tagline">© 2026 — Santo Antônio Pizza &amp; Pasta.</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/santoantoniopizzaepasta/" rel="noopener noreferrer">Instagram</a>
+        <a href="https://wa.me/5512997051560" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+
+
